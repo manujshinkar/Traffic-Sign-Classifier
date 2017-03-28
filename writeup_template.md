@@ -54,7 +54,7 @@ The code for this step is contained in the third code cell of the IPython notebo
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data of number of images for each traffic sign in the training dataset.
 
-![alt tag](train_distribution.png)
+![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/train_distribution.png)
 
 ###Design and Test a Model Architecture
 
@@ -66,8 +66,8 @@ I normalize the image data in order to make the problem well conditioned so that
 
 Here is an example of a traffic sign image before and after normalizing.
 
-![alt text][before_normalization]
-![alt text][after_normalization]
+![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/before_normalization.png)
+!alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/after_normalization.png)
 
 ####2. Describe how, and identify where in your code, you set up training, validation and testing data. How much data was in each set? Explain what techniques were used to split the data into these sets. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, identify where in your code, and provide example images of the additional data)
 
@@ -120,7 +120,7 @@ My final model results were:
 
 This project is about traffic sign classification given an image. CNN is best suitable for such problems. I used a Lenet-5 architecture for this project because it is a well known architecture for CNN and I got good results with it. After strating the Lenet architecure it was all about parameter and hyperparameter tuning. Since the training, validation and testing accuracy are almost comparable, my model seems to work fine. Since there are more images for some traffic signs as compared to others, I belive the accuracy can be improoved by adding more data for the traffic signs with less images. The below figure shows the graph for validation accuracy. It bacame almost constant at 0.94.
 
-![alt text][accuracy]  
+![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/accuracy.png)  
  
 ###Test a Model on New Images
 
@@ -128,8 +128,11 @@ This project is about traffic sign classification given an image. CNN is best su
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][i_1] ![alt text][i_11] ![alt text][i_13] 
-![alt text][i_35] ![alt text][i_38]
+![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/i_1.png)
+![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/i_11.png)
+![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/i_13.png) 
+![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/i_35.png)
+![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/i_38.png)
 
 The first image might be difficult to classify because it has some shadow on it. 
 The second and third images have good exposure.
