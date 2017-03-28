@@ -66,7 +66,10 @@ I normalize the image data in order to make the problem well conditioned so that
 
 Here is an example of a traffic sign image before and after normalizing.
 Before:
+
 ![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/before_normalization.png)
+
+
 After:
 ![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/after_normalization.png)
 
@@ -128,6 +131,9 @@ This project is about traffic sign classification given an image. CNN is best su
 ####1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are five German traffic signs that I found on the web:
+
+<img src="https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/i_1.png" width="200" height="200" />
+<img src="https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/i_11.png" width="200" height="200" />
 
 ![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/i_1.png = 200x200)
 ![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/i_11.png = 200x200)
