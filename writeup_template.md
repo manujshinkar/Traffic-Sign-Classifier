@@ -65,8 +65,9 @@ The code for this step is contained in the fourth code cell of the IPython noteb
 I normalize the image data in order to make the problem well conditioned so that the optimizer will run faster.
 
 Here is an example of a traffic sign image before and after normalizing.
-![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/before_normalization.png)
-![alt tag](https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/after_normalization.png)
+
+<img src="https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/before_normalization.png" width="200" height="200" />
+<img src="https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/before_normalization.png" width="200" height="200" />
 
 ####2. Describe how, and identify where in your code, you set up training, validation and testing data. How much data was in each set? Explain what techniques were used to split the data into these sets. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, identify where in your code, and provide example images of the additional data)
 
