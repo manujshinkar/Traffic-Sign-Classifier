@@ -54,7 +54,7 @@ The code for this step is contained in the third code cell of the IPython notebo
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data of number of images for each traffic sign in the training dataset.
 
-![alt text][train_distribution]
+![alt text][https://github.com/manujshinkar/Traffic-Sign-Classifier/blob/master/train_distribution.png]
 
 ###Design and Test a Model Architecture
 
